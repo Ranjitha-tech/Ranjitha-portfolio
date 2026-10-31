@@ -347,10 +347,15 @@ function App() {
         <span>Streamlit</span>
         <span>Machine Learning</span>
       </div>
-
-      <div className="project-status">
-        Personal Project
-      </div>
+   <a
+  href="https://github.com/Ranjitha-tech/AgriHealth-AI.git"
+  target="_blank"
+  rel="noreferrer"
+  className="project-link"
+>
+  View on GitHub ↗
+</a>
+      
     </div>
 
     {/* PROJECT 2 */}
@@ -387,43 +392,54 @@ function App() {
         View on GitHub ↗
       </a>
     </div>
+  
+    {/* PROJECT 3 */}
+    <div className="project-card">
+      <div className="project-number">03</div>
 
-  </div>
-  <div className="project-card">
-  <div className="project-content">
-    <h3>Recipe Finder</h3>
+      <div className="project-icon">🍽️</div>
 
-    <p>
-      A responsive web application that allows users
-      to explore food recipes and discover ingredients
-      and cooking instructions.
-    </p>
+      <h3>Recipe Finder</h3>
 
-    <div className="project-tags">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
+      <p className="project-category">
+        Frontend Web Application
+      </p>
+
+      <p className="project-description">
+        A responsive food recipe finder application that
+        allows users to explore recipes, view ingredients
+        and discover step-by-step cooking instructions.
+      </p>
+
+      <div className="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+
+      <div className="project-status">
+        <a
+          href="https://github.com/Ranjitha-tech/Food-recipe-finder"
+          target="_blank"
+          rel="noreferrer"
+          className="project-link"
+        >
+          View on GitHub ↗
+        </a>
+
+        <a
+          href="https://ranjitha-tech.github.io/Food-recipe-finder/"
+          target="_blank"
+          rel="noreferrer"
+          className="project-link"
+        >
+          Live Demo ↗
+        </a>
+      </div>
     </div>
 
-    <div className="project-links">
-      <a
-        href="https://github.com/Ranjitha-tech/Food-recipe-finder"
-        target="_blank"
-        rel="noreferrer"
-      >
-        GitHub
-      </a>
-
-      <a
-        href="https://ranjitha-tech.github.io/Food-recipe-finder/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Live Demo
-      </a>
-    </div>
   </div>
-</div>
+  
 </section>
 
        
