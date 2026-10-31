@@ -389,6 +389,41 @@ function App() {
     </div>
 
   </div>
+  <div className="project-card">
+  <div className="project-content">
+    <h3>Recipe Finder</h3>
+
+    <p>
+      A responsive web application that allows users
+      to explore food recipes and discover ingredients
+      and cooking instructions.
+    </p>
+
+    <div className="project-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div className="project-links">
+      <a
+        href="https://github.com/Ranjitha-tech/Food-recipe-finder"
+        target="_blank"
+        rel="noreferrer"
+      >
+        GitHub
+      </a>
+
+      <a
+        href="https://ranjitha-tech.github.io/Food-recipe-finder/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Demo
+      </a>
+    </div>
+  </div>
+</div>
 </section>
 
        
